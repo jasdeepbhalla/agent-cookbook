@@ -1,0 +1,14 @@
+{
+  "app": "env PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin .venv/bin/python app.py",
+  "context": {
+    "sender_email": "your-verified-sender@example.com",
+    "recipient_email": "your-recipient@example.com",
+    "news_api_key": "your-newsapi-key",
+    "schedule_timezone": "America/Los_Angeles",
+    "schedule_hour": "7",
+    "lat": "37.7749",
+    "lon": "-122.4194",
+    "location_name": "San Francisco, CA",
+    "enable_google_calendar": "false"
+  }
+}
