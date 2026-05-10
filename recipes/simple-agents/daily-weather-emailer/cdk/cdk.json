@@ -1,0 +1,10 @@
+{
+  "app": "env PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin .venv/bin/python app.py",
+  "context": {
+    "sender_email": "your-verified-sender@example.com",
+    "recipient_email": "your-recipient@example.com",
+    "bedrock_model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
+    "schedule_timezone": "America/Los_Angeles",
+    "schedule_hour": "9"
+  }
+}
