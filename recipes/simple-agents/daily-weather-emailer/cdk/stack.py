@@ -15,7 +15,7 @@ class DailyWeatherEmailerStack(Stack):
 
         sender_email = self.node.try_get_context("sender_email")
         recipient_email = self.node.try_get_context("recipient_email")
-        model_id = self.node.try_get_context("bedrock_model_id") or "anthropic.claude-3-haiku-20240307-v1:0"
+        model_id = self.node.try_get_context("bedrock_model_id") or "anthropic.claude-3-5-haiku-20241022-v1:0"
         timezone = self.node.try_get_context("schedule_timezone") or "America/Los_Angeles"
         hour = self.node.try_get_context("schedule_hour") or "9"
 

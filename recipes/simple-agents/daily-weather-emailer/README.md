@@ -31,7 +31,7 @@ Edit `cdk/cdk.json` and update the context values:
 |---|---|---|
 | `sender_email` | SES-verified sender address | *(required)* |
 | `recipient_email` | Where to send the daily email | *(required)* |
-| `bedrock_model_id` | Bedrock model to use | `anthropic.claude-3-haiku-20240307-v1:0` |
+| `bedrock_model_id` | Bedrock model to use | `anthropic.claude-3-5-haiku-20241022-v1:0` |
 | `schedule_timezone` | Timezone for 9am trigger | `America/Los_Angeles` |
 | `schedule_hour` | Hour to send (24h format) | `9` |
 

@@ -3,6 +3,7 @@ __pycache__/
 .env
 .venv/
 cdk.out/
+cdk/.venv/
 cdk.context.json
 *.egg-info/
 .DS_Store
